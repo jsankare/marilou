@@ -1,11 +1,9 @@
-h1 {
-    font-size: 35px;
-    font-weight: 600;
-}
-
-h2 {
-    font-size: 18px;
-    font-weight: 400;
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
 }
 
 #nav__logo {
@@ -22,7 +20,7 @@ h2 {
     display: flex;
     list-style: none;
     background-color: white;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 25px;
     align-items: center;
     }
@@ -39,6 +37,6 @@ a {
     text-align: center;
   }
   
-  #presentation__title {
+#presentation__title {
     margin-bottom: 5px;
   }

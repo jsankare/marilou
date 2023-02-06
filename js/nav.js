@@ -2,8 +2,8 @@ function navigation() {
 
     const navbar = document.getElementById('nav__links');
     const links = {
-        work: 'Mon entreprise',
-        prestations: 'Prestations & tarifs',
+        index: 'Accueil',
+        prestations: 'Prestations',
         feedback: 'Avis',
         contact: 'Contact',
     };
@@ -12,7 +12,7 @@ function navigation() {
         const li = document.createElement('li')
         const a = document.createElement('a')
         a.innerText = label
-        a.href = `../html/${link}.html`
+        a.href = `./${link}.html`
         li.appendChild(a)
         navbar.appendChild(li)
     }
