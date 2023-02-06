@@ -7,7 +7,7 @@ function hero() {
     image.id = `hero__img`
     hero.appendChild(image)
 
-    const presentation = document.getElementById('presentation')
+    const presentation = document.getElementById('presentation__container')
     const title = document.createElement('h1')
     const subtitle = document.createElement('h2')
     title.id = `presentation__title`

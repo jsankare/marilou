@@ -33,3 +33,12 @@ a {
     font-style: bold;
     font-weight: 500;
 }
+
+#presentation__container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #presentation__title {
+    margin-bottom: 5px;
+  }
