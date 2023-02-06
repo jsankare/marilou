@@ -1,29 +1,8 @@
-function navigation() {
-
-    const navbar = document.getElementById('nav__links');
-    const links = {
-        work: 'Mon entreprise',
-        prices: 'Prestations & tarifs',
-        feedback: 'Avis',
-        contact: 'Contact',
-    };
-
-    for (const [link, label] of Object.entries(links)) {
-        const li = document.createElement('li')
-        const a = document.createElement('a')
-        a.innerText = label
-        a.href = `/${link}.html`
-        li.appendChild(a)
-        navbar.appendChild(li)
-    }
-}
-navigation();
-
 function hero() {
 
     const hero = document.getElementById('hero')
     const image = document.createElement('img')
-    image.src = './images/pexels-jozef-fehér-1633522.jpg'
+    image.src = '../images/pexels-jozef-fehér-1633522.jpg'
     image.alt = `Two dogs enjoying a walk`
     image.id = `hero__img`
     hero.appendChild(image)
