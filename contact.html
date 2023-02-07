@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contact.css">
-    <title>Marilou - Contact</title>
+    <title>Marilou - Pet sitting</title>
 </head>
 <body>
     <header>
@@ -27,6 +26,40 @@
         </nav>
     </header>
     <main>
+        <section id="form__section" class="flex">
+            <div id="form__title">
+                <h1>Me contacter</h1>
+            </div>
+            <div id="form__separator"></div>
+            <div id="from__inputs">
+                <div id="upperForm">
+                    <div id="firstName" class="flex">
+                        <p class="form__name input">Prénom</p>
+                        <input required type="text" label='' name="" class="input">
+                    </div>
+                    <div id="lastName">
+                        <p class="form__name input">Nom</p>
+                        <input required type="text" label='' name="" class="input">
+                    </div>
+                </div>
+                <div id="middleForm" class="flex">
+                    <div id="email">
+                        <p class="form__name input">Email</p>
+                        <input required type="email" label='' name="" class="input">
+                    </div>
+                    <div id="phone">
+                        <p class="form__name input">Téléphone</p>
+                        <input required type="tel" label='' name="" class="input">
+                    </div>
+                </div>
+                <div id="lowerForm">
+                    <div id="message">
+                        <p class="form__name input">Votre message</p>
+                        <input required type="text" label='' name="" class="input">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <section id="footer__content" class="flex">
@@ -46,4 +79,3 @@
     <script src="js/contact.js"></script>
     <script src="js/footer.js"></script>
 </body>
-</html>

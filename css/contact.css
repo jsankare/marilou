@@ -1,0 +1,17 @@
+#form__section {
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    box-shadow: 2px 2px lightgray;
+    min-height: 300px;
+    vertical-align: middle;
+    margin-top: 10rem 3rem 3rem 3rem;
+
+}
+
+#form__title {
+    text-align: center;
+}
