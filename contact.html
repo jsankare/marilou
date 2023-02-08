@@ -32,33 +32,34 @@
             </div>
             <div id="form__separator"></div>
             <div id="from__inputs" class="grid">
-                <div id="upperForm" class="">
+                <div id="upperForm">
                     <div id="firstName" class="input__div">
                         <p class="form__name">Prénom</p>
-                        <input required type="text" label='' name="" class="input">
+                        <input type="text" label='firstName' name="firstName" class="input" required>
                     </div>
                     <div id="lastName" class="input__div">
                         <p class="form__name">Nom</p>
-                        <input required type="text" label='' name="" class="input">
+                        <input type="text" label='lastName' name="lastName" class="input required">
                     </div>
                 </div>
-                <div id="middleForm" class="">
+                <div id="middleForm">
                     <div id="email" class="input__div">
                         <p class="form__name">Email</p>
-                        <input required type="email" label='' name="" class="input">
+                        <input type="email" label='email' name="email" class="input" required>
                     </div>
                     <div id="phone" class="input__div">
                         <p class="form__name">Téléphone</p>
-                        <input required type="tel" label='' name="" class="input">
+                        <input type="tel" label='phone' name="phone" class="input" required>
                     </div>
                 </div>
-                <div id="lowerForm" class="">
+                <div id="lowerForm">
                     <div id="message">
                         <p class="form__name">Votre message</p>
-                        <textarea required class="input input__msg"></textarea>
+                        <textarea class="input input__msg" required></textarea>
                       </div>                      
                 </div>
             </div>
+            <button class="inputBtn" type="submit">Envoyer</button>
         </section>
     </main>
     <footer>
