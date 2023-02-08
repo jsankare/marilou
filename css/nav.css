@@ -1,9 +1,7 @@
-.nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+#nav {
     background-color: white;
+    align-items: center;
+    z-index: 1000;
 }
 
 #nav__logo {
@@ -40,3 +38,4 @@ a {
 #presentation__title {
     margin-bottom: 5px;
   }
+

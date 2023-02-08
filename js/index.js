@@ -2,7 +2,7 @@ function hero() {
 
     const hero = document.getElementById('hero')
     const image = document.createElement('img')
-    image.src = 'images/pexels-jozef-fehér-1633522.jpg'
+    image.src = 'images/dogsOutside.jpg'
     image.alt = `Two dogs enjoying a walk`
     image.id = `hero__img`
     hero.appendChild(image)

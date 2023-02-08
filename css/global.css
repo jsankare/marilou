@@ -1,9 +1,22 @@
 main {
-    padding: 10px;
+    padding: 16px;
 }
 
 .flex {
 	display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.relative {
+    position: relative;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
 }
 
 h1 {

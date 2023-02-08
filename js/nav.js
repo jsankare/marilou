@@ -28,3 +28,20 @@ function navigation() {
     logoLink.appendChild(logoImg)
 }
 navigation();
+
+// function onScroll() {
+//   let navbar = document.getElementById('nav');
+//   let sticky = navbar.offsetTop;
+
+//   window.onscroll = function() {
+//       if (window.pageYOffset >= sticky) {
+//           navbar.classList.add('sticky');
+//           navbar.classList.remove('relative');
+//       } else {
+//           navbar.classList.remove('sticky');
+//           navbar.classList.add('relative');
+//       }
+//   };
+// }
+
+// onScroll();

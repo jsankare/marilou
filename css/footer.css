@@ -1,3 +1,7 @@
+footer {
+    margin-top: 2rem;
+}
+
 #footer__content {
     background-color: #bebdbe;
     min-height: 75px;
