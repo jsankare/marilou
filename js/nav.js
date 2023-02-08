@@ -4,7 +4,7 @@ function navigation() {
     const links = {
         index: 'Accueil',
         prestations: 'Prestations',
-        feedback: 'Avis',
+        //feedback: 'Avis',
         contact: 'Contact',
     };
 
