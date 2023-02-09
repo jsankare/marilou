@@ -21,7 +21,7 @@ function footer() {
     // links footer
     const footerLinks = {
         prestations: 'Prestations',
-        feedback: 'Avis',
+        //feedback: 'Avis',
         contact: 'Contact',
     };
 

@@ -13,3 +13,32 @@
 #important > h3 {
     margin: 10px 0 10px 0;
 }
+
+/* V2 */
+#cardSection {
+    justify-content: center;
+}
+
+#cards {
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+}
+
+.card {
+    gap: 15px;
+    flex-direction: column;
+    border: 2px solid rgb(105, 83, 11);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    padding: 15px;
+    margin: 5px;
+    min-height: 200px;
+}
+
+.card > *  {
+    font-size: 22px;
+}
+
