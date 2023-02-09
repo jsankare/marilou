@@ -30,6 +30,10 @@ a {
     font-weight: 500;
 }
 
+a:hover {
+    font-weight: 800;
+}
+
 #presentation__container {
     padding: 20px;
     text-align: center;

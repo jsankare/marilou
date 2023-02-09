@@ -41,7 +41,7 @@ function mainContent() {
     const animalsImg = document.createElement('img')
     const animalsTitle = document.createElement('h3')
     const animalsText = document.createElement('p')
-    animalsImg.src = `images/dog__leash.jpg`
+    animalsImg.src = `images/cat_and_dog.jpg`
     animalsImg.alt = `A dog on a walk in the forest`
     animalsImg.id = `animals__img`
     animalsTitle.innerHTML = `Ma passion des animaux`

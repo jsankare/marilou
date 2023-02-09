@@ -19,33 +19,39 @@
 
 #informations {
   align-items: center;
-  background-color: whitesmoke;
+  background-color: #62b1a218;
   padding: 20px 0;
 }
 
 .fullbleed--informations {
-  box-shadow: 0 0 0 100vmax whitesmoke;
+  box-shadow: 0 0 0 100vmax #62b1a218;
   clip-path: inset(0 -100vmax);
 }
 
 /* Animals */
 #animals__container {
   align-items: center;
+  padding: 10px;
 }
 
 #animals__img__container {
-  height: 100%;
+  min-width: 100px;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 #animals__content {
   text-align: left;
-  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
 #animals__img {
   border-radius: 10px;
   box-shadow: 3px 3px rgb(92, 87, 87);
   object-fit: cover;
+  width: 80%;
 }
 
 
