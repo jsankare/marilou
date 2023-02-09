@@ -33,14 +33,19 @@
   align-items: center;
 }
 
+#animals__img__container {
+  height: 100%;
+}
+
 #animals__content {
-  text-align: right;
-  margin-left: 2px;
+  text-align: left;
+  margin-left: 12px;
 }
 
 #animals__img {
   border-radius: 10px;
   box-shadow: 3px 3px rgb(92, 87, 87);
+  object-fit: cover;
 }
 
 
