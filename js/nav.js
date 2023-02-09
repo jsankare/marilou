@@ -1,6 +1,6 @@
 function navigation() {
 
-    const navbar = document.getElementById('nav__links');
+    const navbar = document.getElementById('nav__links')
     const links = {
         index: 'Accueil',
         prestations: 'Prestations',
@@ -27,21 +27,4 @@ function navigation() {
     logoDiv.appendChild(logoLink)
     logoLink.appendChild(logoImg)
 }
-navigation();
-
-// function onScroll() {
-//   let navbar = document.getElementById('nav');
-//   let sticky = navbar.offsetTop;
-
-//   window.onscroll = function() {
-//       if (window.pageYOffset >= sticky) {
-//           navbar.classList.add('sticky');
-//           navbar.classList.remove('relative');
-//       } else {
-//           navbar.classList.remove('sticky');
-//           navbar.classList.add('relative');
-//       }
-//   };
-// }
-
-// onScroll();
+navigation()
