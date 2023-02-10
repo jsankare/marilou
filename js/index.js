@@ -26,10 +26,10 @@ function mainContent() {
     const meImage = document.createElement('img')
     const aboutMeTitle = document.createElement('h3')
     const aboutMeContent = document.createElement('p')
-    aboutMeTitle.innerHTML = `A propos de Marilou`
+    aboutMeTitle.innerHTML = `A propos de Moi`
     aboutMeContent.innerHTML = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores accusantium beatae esse fugiat reiciendis voluptates? Blanditiis, exercitationem facilis pariatur necessitatibus illo saepe quo impedit.`
-    meImage.src = `images/female-tempo.png`
-    meImage.alt = `A picture of the owner of th ecompany`
+    meImage.src = `images/mrl.jpg`
+    meImage.alt = `A picture of the owner of the company`
     meImage.id = `aboutMe__image`
     meImg.appendChild(meImage)
     aboutMe.appendChild(aboutMeTitle)
@@ -41,7 +41,7 @@ function mainContent() {
     const animalsImg = document.createElement('img')
     const animalsTitle = document.createElement('h3')
     const animalsText = document.createElement('p')
-    animalsImg.src = `images/cat_and_dog.jpg`
+    animalsImg.src = `images/dog_and_cat.png`
     animalsImg.alt = `A dog on a walk in the forest`
     animalsImg.id = `animals__img`
     animalsTitle.innerHTML = `Ma passion des animaux`

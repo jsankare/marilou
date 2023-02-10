@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/prestations.css">
+    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/prestations.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
@@ -29,46 +30,32 @@
     <main>
         <section id="presentation__container">
         </section>
-        <section id="prestations__container">
-            <div id="title" class="center">
-                <h2>Fiche de présentation des tarifs</h2>
+        <section id="cardSection" class="flex">
+            <div id="cards" class="grid">
             </div>
-            <div id="prestations__content">
-                <div id="prices">
-                    <h3>Les tarifs :</h3>
-                    <div class="prices__content flex">
-                        <p>Promenade de 30min : <p class="price">9€</p></p>
-                    </div>
-                    <div class="prices__content flex">
-                        <p>Promenade de 45min : </p><p class="price">12€</p>
-                    </div>
-                    <div class="prices__content flex">
-                        <p>Promenade d'une heure : </p><p class="price">15€</p>
-                    </div>
-                    <div class="prices__content flex">
-                        <p>Visite à domicile : </p><p class="price">18€ / animal et par jour</p>
-                    </div>
-                </div>
-                <div id="packages">
-                    <h3>les forfaits :</h3>
-                    <div class="prices__content flex">
-                        <p>Visite de jour/soir pendant -6 mois :<span class="price">17€ / jour</span></p>
-                    </div>
-                    <div class="prices__content flex">
-                        <p>Visite de jour/soir pendant + 6 mois : <span class="price">15€ / jour</span></p>
-                    </div>
-                    <div class="prices__content flex">
-                        <p>Majoration Noël et 1er de l'An :<span class="price">25%</span></p>
-                    </div>
-                    <div class="prices__content flex">
-                        <p>Frais kilométriques : <span class="price">0,25€ / km</span></p>
-                    </div>
-                </div>
-                <div id="important" class="price">
-                    <h3>IMPORTANT :</h3>
-                    <p>La garde s'effectue à votre domicile et non au mien. <br>Je ne reste pas la nuit sur place, je n'effectue que des visites la journée et le soir. <br>Mes services ne sont pas uniquement pour chiens et chats, mais pour tout animal domestique. <br><br>Concernant les horaires du soir pour les promenades et visites, c'est à voir au moment de la réservation</p>
-                </div>
+            <h2 class="subtitle center">Les forfaits</h2>
+            <div id="cards_2" class="grid">
             </div>
+            <h2 class="subtitle center">Notes importantes</h2>
+            <div class="important">
+                <ul>
+                    <li class="rabbit">
+                        <img src="images/pig.png" alt=""> <span>Si vous choisissez les visites, le tarif des promenades est <span class="emphasis">déjà compris.</span></span>
+                        </li>
+                    <li class="turtle">
+                        <img src="images/turtle.png" alt=""> <span>La garde s'effectue à <span class="emphasis">votre domicile</span> et non au mien.</span>
+                    </li>
+                    <li class="koala">
+                        <img src="images/koala.png" alt=""> <span>Je <span class="emphasis">ne reste pas la nuit</span> sur place, je n'effectue que des visites la journée et le soir.</span>
+                    </li>
+                    <li class="cat">
+                        <img src="images/cat.png" alt=""> <span>Mes services ne sont pas uniquement pour chiens et chats, mais pour <span class="emphasis">tout animal domestique.</span></span>
+                    </li>
+                    <li class="rabbit">
+                        <img src="images/rabbit.png" alt=""> <span>Concernant les horaires du soir pour les promenades et visites, c'est à voir <span class="emphasis">au moment de la réservation.</span></span>
+                    </li>
+                </ul>
+              </div>
         </section>
     </main>
     <footer>

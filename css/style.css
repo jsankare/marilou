@@ -14,29 +14,27 @@
 
 /* about me */
 #aboutMe__image {
-  max-height: 150px;
+  max-height: 100px;
+  border-radius: 15px;
 }
 
 #informations {
   align-items: center;
   background-color: #62b1a218;
-  padding: 20px 0;
-}
-
-.fullbleed--informations {
-  box-shadow: 0 0 0 100vmax #62b1a218;
-  clip-path: inset(0 -100vmax);
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 /* Animals */
 #animals__container {
   align-items: center;
   padding: 10px;
+  border-radius: 15px;
 }
 
 #animals__img__container {
-  min-width: 100px;
-  max-width: 200px;
+  min-width: 40%;
   display: flex;
   justify-content: center;
 }
@@ -45,13 +43,13 @@
   text-align: left;
   display: flex;
   flex-direction: column;
+  min-width: 60%;
 }
 
 #animals__img {
   border-radius: 10px;
-  box-shadow: 3px 3px rgb(92, 87, 87);
-  object-fit: cover;
-  width: 80%;
+  object-fit: fill;
+  width: 95%;
 }
 
 

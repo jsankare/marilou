@@ -17,6 +17,7 @@
 /* V2 */
 #cardSection {
     justify-content: center;
+    flex-direction: column;
 }
 
 #cards {
@@ -41,11 +42,38 @@
 }
 
 .card > p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .card > span {
     color: #62b1a2;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 600;
 }
+
+.subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 25px;
+}
+
+.important {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .important img {
+    margin-right: 10px;
+  }
+
+  .important li {
+    margin-bottom: 10px;
+    
+  }
+
+  .emphasis {
+    color: #62b1a2;
+    font-weight: bold;
+  }

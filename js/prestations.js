@@ -9,7 +9,7 @@ function presentationTitle() {
 presentationTitle()
 
 // v2
-function presta() {
+function prices() {
     const cards = document.getElementById('cards')
 
     const price__cards = {
@@ -39,5 +39,33 @@ function presta() {
         cards.appendChild(cardContainer)
     }
 }
-presta()
+prices()
+
+function packages() {
+    const cards = document.getElementById('cards_2')
+
+    const price__cards = {
+        thirty: 'Visite de jour/soir pendant -6 mois',
+        fortyFive: 'Visite de jour/soir pendant + 6 mois',
+    };
+
+    const prices = {
+        thirty: '17€ / jour',
+        fortyFive: '15€ / jour',
+    }
+
+    for (const [link, label] of Object.entries(price__cards)) {
+        const cardContainer = document.createElement('div')
+        const cardText = document.createElement('p')
+        const cardPrice = document.createElement('span')
+
+        cardPrice.innerHTML = `${prices[link]}`
+        cardContainer.className = `card flex center`
+        cardText.innerText = `${label} :`
+        cardContainer.appendChild(cardText)
+        cardContainer.appendChild(cardPrice)
+        cards.appendChild(cardContainer)
+    }
+}
+packages()
 
