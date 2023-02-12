@@ -33,29 +33,51 @@
             </div>
             <div id="form__separator"></div>
             <div id="from__inputs">
-                <div id="upperForm">
+                <div class="formContainer">
                     <div id="firstName" class="input__div">
-                        <p class="form__name">Prénom</p>
+                        <p class="form__name">Prénom *</p>
                         <input type="text" label='firstName' name="firstName" class="input" required>
                     </div>
                     <div id="lastName" class="input__div">
-                        <p class="form__name">Nom</p>
+                        <p class="form__name">Nom *</p>
                         <input type="text" label='lastName' name="lastName" class="input required">
                     </div>
                 </div>
-                <div id="middleForm">
+                <div  class="formContainer">
                     <div id="email" class="input__div">
-                        <p class="form__name">Email</p>
+                        <p class="form__name">Email *</p>
                         <input type="email" label='email' name="email" class="input" required>
                     </div>
                     <div id="phone" class="input__div">
-                        <p class="form__name">Téléphone</p>
+                        <p class="form__name">Téléphone *</p>
                         <input type="tel" label='phone' name="phone" class="input" required>
+                    </div>
+                </div>
+                <div  class="formContainer">
+                    <div id="pets" class="input__div">
+                        <p class="form__name">Date de garde</p>
+                        <input type="date" label='date' name="date" class="input">
+                    </div>
+                    <div id="date" class="input__div">
+                        <p class="form__name">Horaire</p>
+                        <input type="text" label='' name="hour" class="input">
+                    </div>
+                </div>
+                <div  class="formContainer">
+                    <div id="pets" class="input__div">
+                        <p class="form__name">Nombre d'animaux *</p>
+                        <input type="number" label='number' name="number" class="input" required>
+                    </div>
+                    <div id="date" class="input__div">
+                        <p class="form__name">Type d'animal *</p>
+                        <form action="">
+                            <input id="pet__type" list="pets" label='' name="" class="input" required>
+                        </form>  
                     </div>
                 </div>
                 <div id="lowerForm">
                     <div id="message">
-                        <p class="form__name">Votre message</p>
+                        <p class="form__name">Votre message *</p>
                         <textarea class="input input__msg" required></textarea>
                       </div>                      
                 </div>
@@ -77,7 +99,10 @@
             </div>
         </section>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/nav.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/footer.js"></script>
+    
 </body>
