@@ -37,3 +37,8 @@ h3 {
     text-decoration: underline;
     padding: 5px;
 }
+
+.emphasis {
+    color: #62b1a2;
+    font-weight: bold;
+  }
