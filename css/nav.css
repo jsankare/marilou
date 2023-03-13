@@ -14,14 +14,14 @@
 }
 
 
-#nav__links {
+#nav__links ul {
     display: flex;
     list-style: none;
     background-color: white;
     justify-content: space-evenly;
     padding: 25px;
     align-items: center;
-    }
+}
 
 a {
     text-decoration: none;
@@ -43,3 +43,16 @@ a:hover {
     margin-bottom: 5px;
   }
 
+@media only screen and (min-width: 769px) {   
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    #nav__links ul {
+        gap: 40px;
+    }
+}
