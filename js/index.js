@@ -28,7 +28,7 @@ function mainContent() {
     const aboutMeContent = document.createElement('p')
     aboutMeTitle.innerHTML = `A propos de Moi`
     aboutMeContent.innerHTML = `22 ans, jeune auto entrepreneuse qui se lance. Je possède 3 ans d'expérience en refuge animalier (Refuge de la Picoterie à Château Thierry).`
-    meImage.src = `images/mrl.jpg`
+    meImage.src = `images/marilou_rszd.jpg`
     meImage.alt = `A picture of the owner of the company`
     meImage.id = `aboutMe__image`
     meImg.appendChild(meImage)
