@@ -27,7 +27,7 @@ function mainContent() {
     const aboutMeTitle = document.createElement('h3')
     const aboutMeContent = document.createElement('p')
     aboutMeTitle.innerHTML = `A propos de Moi`
-    aboutMeContent.innerHTML = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores accusantium beatae esse fugiat reiciendis voluptates? Blanditiis, exercitationem facilis pariatur necessitatibus illo saepe quo impedit.`
+    aboutMeContent.innerHTML = `22 ans, jeune auto entrepreneuse qui se lance. Je possède 3 ans d'expérience en refuge animalier (Refuge de la Picoterie à Château Thierry).`
     meImage.src = `images/mrl.jpg`
     meImage.alt = `A picture of the owner of the company`
     meImage.id = `aboutMe__image`
@@ -45,7 +45,7 @@ function mainContent() {
     animalsImg.alt = `A dog on a walk in the forest`
     animalsImg.id = `animals__img`
     animalsTitle.innerHTML = `Ma passion des animaux`
-    animalsText.innerHTML = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus libero consequuntur aspernatur laudantium, ab distinctio excepturi iusto facilis quos! Harum fugit aliquam eos.`
+    animalsText.innerHTML = `Passionnée depuis toute petite, j'ai toujours vécu avec des animaux. Chiens, chats, lapins, cochons d'Inde etc .. Je peux m'occuper de tout types d'animaux, domestiques ou non.`
     animalsImgDiv.appendChild(animalsImg)
     animalsContentDiv.appendChild(animalsTitle)
     animalsContentDiv.appendChild(animalsText)
