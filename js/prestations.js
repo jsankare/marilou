@@ -13,6 +13,7 @@ function prices() {
     const cards = document.getElementById('cards')
 
     const price__cards = {
+        fifteen: 'Promenade de 15 min',
         thirty: 'Promenade de 30 min',
         fortyFive: 'Promenade de 45 min',
         hour: `Promenade d'une heure`,
@@ -20,6 +21,7 @@ function prices() {
     };
 
     const prices = {
+        fifteen: '5€',
         thirty: '9€',
         fortyFive: '12€',
         hour: `15€`,

@@ -12,7 +12,7 @@ function hero() {
     const subtitle = document.createElement('h2')
     title.id = `presentation__title`
     subtitle.id = `presentation__subtitle`
-    title.innerText = `Marilou`
+    title.innerText = `Marilou Pet Sitter`
     subtitle.innerText = `Prenez soin de votre animal de compagnie avec Marilou - Services de garde d'animaux de qualité pour votre tranquillité d'esprit.`
     presentation.appendChild(title)
     presentation.appendChild(subtitle)

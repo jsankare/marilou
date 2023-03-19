@@ -7,11 +7,11 @@ function footer() {
     const facebook = document.createElement('a')
     const instagram = document.createElement('a')
     
-    facebook.href = `https://www.facebook.com`
+    facebook.href = `https://www.facebook.com/marilou.bty`
     facebook.alt = `Facebook`
     facebook.innerHTML = `facebook`
     facebook.className = `facebook`
-    instagram.href = `https://www.instagram.com`
+    instagram.href = `https://www.instagram.com/marilou_pet_sitting/`
     instagram.alt = `Instagram`
     instagram.innerHTML = `instagram`
     instagram.className = `instagram`
@@ -35,7 +35,7 @@ function footer() {
     }
 
     const phone = document.createElement('p')
-    phone.innerHTML = `06.12.23.34.45`
+    phone.innerHTML = `06.74.80.21.88`
     infos.appendChild(phone)
 }
 footer()

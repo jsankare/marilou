@@ -44,7 +44,7 @@ a:hover {
   }
 
 @media only screen and (min-width: 769px) {   
-    nav {
+    /* nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -54,5 +54,5 @@ a:hover {
 
     #nav__links ul {
         gap: 40px;
-    }
+    } */
 }
