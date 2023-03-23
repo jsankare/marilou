@@ -52,6 +52,12 @@
     font-weight: 600;
 }
 
+.card > .asterisk {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .subtitle {
     font-size: 28px;
     font-weight: 600;
@@ -75,6 +81,16 @@
 
   @media only screen and (min-width: 769px) {   
     
+    #cards {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        max-width: 800px;
+      }
 
+      #cards2 {
+        max-width: 800px; /* not working */
+      }
 
 }

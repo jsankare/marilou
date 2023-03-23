@@ -17,7 +17,8 @@ function prices() {
         thirty: 'Promenade de 30 min',
         fortyFive: 'Promenade de 45 min',
         hour: `Promenade d'une heure`,
-        home: `Visite à domicile`
+        home: `Visite à domicile (par jour)*`,
+        smallSize: `Prix petite taille`
     };
 
     const prices = {
@@ -25,19 +26,34 @@ function prices() {
         thirty: '9€',
         fortyFive: '12€',
         hour: `15€`,
-        home: `18€ / animal et par jour`
+        home: `10€ pour 1 animal<br>12€ pour 2 animaux<br>15€ à partir de 3 animaux`,
+        smallSize: `Pour les chats, lapins, rongeurs ou autre animal domestique de petite taille, le prix est de 5€`
     }
+
+    const asterisks = {
+        fifteen: '',
+        thirty: '',
+        fortyFive: '',
+        hour: ``,
+        home: `* À partir de 3 visites par jour, le prix augmente de 5€`,
+        smallSize: ``
+    } // refaire bien 
 
     for (const [link, label] of Object.entries(price__cards)) {
         const cardContainer = document.createElement('div')
         const cardText = document.createElement('p')
         const cardPrice = document.createElement('span')
+        const cardAsterisk = document.createElement('span')
+
+        cardAsterisk.className = `asterisk`
 
         cardPrice.innerHTML = `${prices[link]}`
         cardContainer.className = `card flex center`
         cardText.innerText = `${label} :`
+        cardAsterisk.innerHTML = `${asterisks[link]}`
         cardContainer.appendChild(cardText)
         cardContainer.appendChild(cardPrice)
+        cardContainer.appendChild(cardAsterisk)
         cards.appendChild(cardContainer)
     }
 }
@@ -52,8 +68,8 @@ function packages() {
     };
 
     const prices = {
-        thirty: '17€ / jour',
-        fortyFive: '15€ / jour',
+        thirty: '11€ / jour',
+        fortyFive: '9€ / jour',
     }
 
     for (const [link, label] of Object.entries(price__cards)) {

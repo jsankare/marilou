@@ -7,7 +7,7 @@ function footer() {
     const facebook = document.createElement('a')
     const instagram = document.createElement('a')
     
-    facebook.href = `https://www.facebook.com/marilou.bty`
+    facebook.href = `https://www.facebook.com/profile.php?id=100090481339100&mibextid=LQQJ4d`
     facebook.alt = `Facebook`
     facebook.innerHTML = `facebook`
     facebook.className = `facebook`
