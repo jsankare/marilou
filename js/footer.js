@@ -34,7 +34,8 @@ function footer() {
         links.appendChild(li)
     }
 
-    const phone = document.createElement('p')
+    const phone = document.createElement('a')
+    phone.href = `tel+33674802188`
     phone.innerHTML = `06.74.80.21.88`
     infos.appendChild(phone)
 }
