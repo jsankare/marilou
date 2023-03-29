@@ -36,7 +36,7 @@ function footer() {
 
     const phone = document.createElement('a')
     phone.href = `tel:0674802188`
-    phone.innerHTML = `06.74.80.21.88` // does not work
+    phone.innerHTML = `06.74.80.21.88`
     infos.appendChild(phone)
 }
 footer()
