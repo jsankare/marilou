@@ -18,11 +18,49 @@
     color: #62b1a2;
     padding: 5px;
     border: 1px solid #504E4F;
-  }
+}
 
-  .btn:hover {
+.btn:hover {
     background-color: #62b1a2;
     color: white;
     transition: 0.5s;
     border: 1px solid #62b1a2;
-  }
+}
+
+.separator {
+    height: 10px;
+    width: 100%;
+    margin: 10px 0;
+    overflow: hidden;
+}
+  
+.separator svg {
+    width: 100%;
+    height: auto;
+    fill: #b28364;
+}
+
+.activities__title {
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.activities__modules {
+    justify-content: space-around;
+}
+  
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+  
+.icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #966545;
+}
