@@ -7,7 +7,12 @@
     width: 170px;
     overflow: hidden;
     position: relative;
-    top: -75px;
+    top: -60px;
+}
+
+.hero__btns {
+    margin-top: 10px;
+    justify-content: space-around;
 }
 
 .btn {
@@ -25,6 +30,7 @@
     color: white;
     transition: 0.5s;
     border: 1px solid #62b1a2;
+    transform: scale(1.1);
 }
 
 .separator {
@@ -48,6 +54,10 @@
 .activities__modules {
     justify-content: space-around;
 }
+
+/* .activities__modules .activity:hover ~ .activity:not(:hover) {
+    transform: scale(0.9);
+} */
   
 .icon-box {
     display: flex;
@@ -63,4 +73,9 @@
     font-size: 3rem;
     margin-bottom: 1rem;
     color: #966545;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.3);
 }
