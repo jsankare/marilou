@@ -1,0 +1,28 @@
+.hero2 {
+    padding: 10px;
+}
+
+.hero__img {
+    border-radius: 50%;
+    width: 170px;
+    overflow: hidden;
+    position: relative;
+    top: -75px;
+}
+
+.btn {
+    min-width: 30%;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #62b1a2;
+    padding: 5px;
+    border: 1px solid #504E4F;
+  }
+
+  .btn:hover {
+    background-color: #62b1a2;
+    color: white;
+    transition: 0.5s;
+    border: 1px solid #62b1a2;
+  }
