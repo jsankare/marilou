@@ -51,7 +51,11 @@ h4 {
     font-weight: 400;
 }
 
+.stronger {
+    font-weight: bold;
+}
+
 .emphasis {
     color: #62b1a2;
     font-weight: bold;
-  }
+}

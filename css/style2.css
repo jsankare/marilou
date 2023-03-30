@@ -46,18 +46,20 @@
     fill: #b28364;
 }
 
+/* activities */
+
+.activities {
+    margin-bottom: 50px;
+}
+
 .activities__title {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 35px;
 }
 
 .activities__modules {
     justify-content: space-around;
 }
-
-/* .activities__modules .activity:hover ~ .activity:not(:hover) {
-    transform: scale(0.9);
-} */
   
 .icon-box {
     display: flex;
@@ -78,4 +80,15 @@
 
 .icon:hover {
     transform: scale(1.3);
+}
+
+/* description */
+
+.description__title {
+    margin-bottom: 15px;
+}
+
+.description__img {
+    max-width: 150px;
+    border-radius: 15%;
 }
