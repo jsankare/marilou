@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,7 @@
     <script src="https://kit.fontawesome.com/960bf0d0ca.js" crossorigin="anonymous"></script>
     <title>Marilou - Pet sitting</title>
 </head>
+
 <body>
     <header>
         <nav id="nav" class="relative">
@@ -28,11 +30,12 @@
         <section class="hero2 flex">
             <div class="hero__text">
                 <h1 class="hero__title fade-in delay1">Marilou - Pet Sitter</h2>
-                <h2 class="hero__subtitle slide-right delay1">Prenez soin de votre animal de compagnie avec Marilou - Services de garde d'animaux de qualité pour votre tranquillité d'esprit.</h3>
-                <div class="hero__btns flex">
-                    <a class="btn btn__contact fade-in delay3" href="#activities__anchor">Découvrir</a>
-                    <a class="btn btn__contact fade-in delay4" href="contact.html">Pour réserver</a>
-                </div>
+                    <h2 class="hero__subtitle slide-right delay1">Prenez soin de votre animal de compagnie avec Marilou
+                        - Services de garde d'animaux de qualité pour votre tranquillité d'esprit.</h3>
+                        <div class="hero__btns flex">
+                            <a class="btn btn__contact fade-in delay3" href="#activities__anchor">Découvrir</a>
+                            <a class="btn btn__contact fade-in delay4" href="contact.html">Pour réserver</a>
+                        </div>
             </div>
             <div class="hero__img__container">
                 <img class="hero__img slide-up fade-in2 delay2" src="images/dog_nobg.png" alt="">
@@ -40,11 +43,24 @@
         </section>
     </header>
     <div class="separator fade-in delay4">
-            <svg viewBox="0 0 500 10" preserveAspectRatio="none">
-              <path d="M0,10 C150,0 350,0 500,10" />
-            </svg>
-        </div>
-    <main class="slide-up fade-in delay-main">
+        <svg viewBox="0 0 500 10" preserveAspectRatio="none">
+            <path d="M0,10 C150,0 350,0 500,10" />
+        </svg>
+    </div>
+    <main>
+        <!-- <section class="description">
+            <h2 class="stronger description__title center">Pet-sitter passionnée pour vos animaux</h2>
+            <div class="description__container flex">
+                <div class="description__text">
+                    <p>Je suis une jeune auto-entrepreneuse de 22 ans, passionnée par les animaux depuis toute petite. <br>
+                        Forte de mes 3 années d'expérience en refuge animalier au sein du Refuge de la Picoterie à Château Thierry,
+                        je suis en mesure de m'occuper de tout type d'animal, domestique ou non. <br> Ma fiabilité, ma compassion et ma confiance sont
+                        des qualités qui me permettent de tisser des liens de confiance avec mes clients,
+                        leur assurant ainsi que leurs animaux sont entre de bonnes mains.</p>
+                </div>
+                <img src="images/marilou_rszd.jpg" alt="" class="description__img">
+            </div>
+        </section> -->
         <section class="activities">
             <h2 id="activities__anchor" class="stronger activities__title center">Mes impératifs</h2>
             <div class="activities__modules flex">
@@ -82,17 +98,78 @@
                 </div>
             </div>
         </section>
-        <section class="description">
-            <h2 class="stronger description__title center">Pet-sitter passionnée pour vos animaux</h2>
-            <div class="description__container flex">
-                <div class="description__text">
-                    <p>Je suis une jeune auto-entrepreneuse de 22 ans, passionnée par les animaux depuis toute petite. <br>
-                        Forte de mes 3 années d'expérience en refuge animalier au sein du Refuge de la Picoterie à Château Thierry,
-                        je suis en mesure de m'occuper de tout type d'animal, domestique ou non. <br> Ma fiabilité, ma compassion et ma confiance sont
-                        des qualités qui me permettent de tisser des liens de confiance avec mes clients,
-                        leur assurant ainsi que leurs animaux sont entre de bonnes mains.</p>
+        <section class="how__it__works">
+            <h2 class="hiw__title stronger">Comment ça marche ?</h2>
+            <div class="hiw__cards__container">
+
+                <div class="hiw__card">
+                    <h3>Prenons contact !</h3>
+                    <img src="./images/mascots/husky.png" alt="cat picture" class="card__img">
+                    <p>Chez Marilou, nous sommes là pour vous aider à trouver le service de garde idéal pour votre ami à
+                        quatre pattes.</p>
+                    <a class="btn" href="contact.html">Nous contacter</a>
                 </div>
-                <img src="images/marilou_rszd.jpg" alt="" class="description__img">
+
+                <div class="hiw__card">
+                    <h3>Analysons vos besoins</h3>
+                    <img src="./images/mascots/cat.png" alt="cat picture" class="card__img">
+                    <p>Trouvez le service de pet-sitting idéal pour votre animal de compagnie en toute simplicité !</p>
+                    <a class="btn" href="prestations.html">Prestations & tarifs</a>
+                </div>
+
+                <div class="hiw__card">
+                    <h3>Partez l'esprit tranquille</h3>
+                    <img src="./images/mascots/corgi.png" alt="cat picture" class="card__img">
+                    <p>Partez l'esprit tranquille en vacances ou au travail, nous prenons soin de votre animal de
+                        compagnie comme si c'était le nôtre.</p>
+                    <a class="btn" href="#activities__anchor">Un avis ?</a>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <h2 class="reviews__title stronger">Les avis</h2>
+            <div class="reviews__container"> 
+                  <body class="carousel-bg">
+                    <!-- Quote Image -->
+                    <div>
+                      <img src="https://i.imgur.com/gZ5HY0U.png" class="img-responsive quote-image">
+                    </div>
+                    <!-- Carousel Start below -->
+                    <div id="carousel1" class="carousel slide testimonial-style" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel1" data-slide-to="1"></li>
+                        <li data-target="#carousel1" data-slide-to="2"></li>
+                      </ol>
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <div class="carousel-caption testimonial-caption-style">
+                            <p>Merci à Marilou pour avoir pris soin de mes chiens pendant mon absence. Ils étaient heureux et détendus quand je suis rentré à la maison. Je n'hésiterai pas à utiliser à nouveau ses services !</p>
+                            <p class="testimonial-authors">Sylvain & Cathy</p>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="carousel-caption testimonial-caption-style">
+                            <p>Je suis très satisfaite de la garde de mon chat par Marilou. Elle a pris soin de mon chat comme si c'était le sien et m'a envoyé des photos et des mises à jour régulières. Je recommande vivement !</p>
+                            <p class="testimonial-authors">Mireille</p>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="carousel-caption testimonial-caption-style">
+                            <p>Marilou est le meilleur pet-sitter que j'ai jamais rencontré ! Je recommande fortement, et long live the Queen !</p>
+                            <p class="testimonial-authors">Elizabeth II</p>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <!-- Controls -->
+                  
+                      <a class="left carousel-control" href="#carousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                      <a class="right carousel-control" href="#carousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                    </div>
+                  </body>
             </div>
         </section>
     </main>
@@ -113,5 +190,10 @@
     <script src="js/nav.js"></script>
     <script src="js/index.js"></script>
     <script src="js/footer.js"></script>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
+
 </html>

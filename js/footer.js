@@ -30,11 +30,13 @@ function footer() {
         const a = document.createElement('a')
         a.innerText = label
         a.href = `./${link}.html`
+        a.classList.add('footer__link')
         li.appendChild(a)
         links.appendChild(li)
     }
 
     const phone = document.createElement('a')
+    phone.classList.add('footer__link')
     phone.href = `tel:0674802188`
     phone.innerHTML = `06.74.80.21.88`
     infos.appendChild(phone)
