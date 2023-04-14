@@ -15,6 +15,7 @@ function navigation() {
         const a = document.createElement('a')
         a.innerText = label
         a.href = `./${link}.html`
+        a.classList.add('navlink')
         li.appendChild(a)
         ul.appendChild(li)
     }
