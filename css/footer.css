@@ -41,8 +41,3 @@ footer {
     text-decoration: none;
     color: black;
 }
-
-footer + * {
-    margin-top: 0;
-    padding-top: 0;
-  }

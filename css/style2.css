@@ -230,11 +230,6 @@
   }
 /* test */
 
-footer + * {
-    margin-top: 0;
-    padding-top: 0;
-  }
-
   .carousel-bg{
     margin-bottom: 0px;
   }
