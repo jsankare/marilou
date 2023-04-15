@@ -4,6 +4,10 @@ html {
 
 main {
     padding: 16px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .flex {
