@@ -139,6 +139,7 @@
 
 .card__img {
     max-width: 200px;
+    max-height: 200px;
     margin-bottom: 10px;
     flex: 1;
 }
@@ -279,12 +280,6 @@
         text-decoration: none;
         font-size: 20px;
         margin-top: 0;
-    }
-
-    .card__img {
-        max-width: 200px;
-        margin-bottom: 10px;
-        flex: 1;
     }
 
     .hiw__card p {
