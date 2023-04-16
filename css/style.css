@@ -27,6 +27,7 @@
     text-align: center;
     margin: 10px;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .button:hover {

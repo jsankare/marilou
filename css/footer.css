@@ -5,7 +5,7 @@ footer {
 #footer__content {
     background-color: #b28364b6;
     min-height: 75px;
-    max-height: 110px;
+    max-height: 200px;
     align-items: center;    
     flex-direction: column;
     gap: 15px;
@@ -15,6 +15,7 @@ footer {
 #footer__content > * {
     display: flex;
     flex-grow: 1;
+    font-size: 16px;
 }
 
 #footer__content__linktoPages {
@@ -45,4 +46,16 @@ footer {
 
 .footer__link:hover {
     color: black;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 769px) {
+
+    #footer__content > * {
+        font-size: 20px;
+    }
+
+    .footer__link {
+        font-size: 18px;
+    }
 }

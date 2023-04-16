@@ -15,7 +15,7 @@ function footer() {
     instagram.alt = `Instagram`
     instagram.innerHTML = `instagram`
     instagram.className = `instagram`
-    mediasContainer.innerHTML = `Me retrouver sur ${facebook.outerHTML} et ${instagram.outerHTML}`
+    mediasContainer.innerHTML = `Retrouvez-moi sur ${facebook.outerHTML} et ${instagram.outerHTML}`
     medias.appendChild(mediasContainer)
 
     // links footer
@@ -38,7 +38,7 @@ function footer() {
     const phone = document.createElement('a')
     phone.classList.add('footer__link')
     phone.href = `tel:0674802188`
-    phone.innerHTML = `06.74.80.21.88`
+    phone.innerHTML = `<i class="fa-solid fa-phone"></i> 06.74.80.21.88`
     infos.appendChild(phone)
 }
 footer()
