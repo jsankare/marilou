@@ -3,9 +3,14 @@ function footer() {
     const links = document.getElementById('footer__content__linktoPages')
     const infos = document.getElementById('footer__content__infos')
 
+    const copyright = document.getElementById('footer__copyrights')
+
     const mediasContainer = document.createElement('p')
     const facebook = document.createElement('a')
     const instagram = document.createElement('a')
+
+    const patent = document.createElement('p')
+    const patentLink = document.createElement('a')
     
     facebook.href = `https://www.facebook.com/profile.php?id=100090481339100&mibextid=LQQJ4d`
     facebook.alt = `Facebook`
@@ -17,6 +22,15 @@ function footer() {
     instagram.className = `instagram`
     mediasContainer.innerHTML = `Retrouvez-moi sur ${facebook.outerHTML} et ${instagram.outerHTML}`
     medias.appendChild(mediasContainer)
+
+    // patent.className = `copyright`
+    // patent.innerHTML = `Powered by ${patentLink.outerHTML}`
+    // patentLink.className = `copyright__link`
+    // patentLink.innerHTML = `J.Sankare`
+    // patentLink.href = `https://github.com/jsankare`
+    // patentLink.alt = `Creator of the website, Jordan Sankare`
+
+    // copyright.appendChild(patent)
 
     // links footer
     const footerLinks = {

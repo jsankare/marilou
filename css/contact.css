@@ -61,6 +61,7 @@
 
   .input__msg {
     width: 80%;
+    min-height: 100px;
     padding: 0.5rem;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -77,6 +78,7 @@
     font-weight: bold;
     color: #62b1a2;
     padding: 5px;
+    margin-top: 16px;
     border: 1px solid #504E4F;
   }
 
@@ -89,4 +91,12 @@
 
   #lowerForm {
     justify-content: center;
+  }
+
+  @media only screen and (min-width: 769px) {
+
+    .input__msg {
+      min-height: 100px;
+    }
+
   }
