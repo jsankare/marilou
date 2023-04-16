@@ -1,6 +1,11 @@
-.hero2 {
+.hero {
     padding: 10px;
     text-align: center;
+    justify-content: center;
+}
+
+.hero__text {
+    max-width: 800px;
 }
 
 .hero__buttons {
