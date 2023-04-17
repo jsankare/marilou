@@ -3,14 +3,14 @@ function footer() {
     const links = document.getElementById('footer__content__linktoPages')
     const infos = document.getElementById('footer__content__infos')
 
-    const copyright = document.getElementById('footer__copyrights')
+    // const copyright = document.getElementById('footer__copyrights')
 
     const mediasContainer = document.createElement('p')
     const facebook = document.createElement('a')
     const instagram = document.createElement('a')
 
-    const patent = document.createElement('p')
-    const patentLink = document.createElement('a')
+    // const patent = document.createElement('p')
+    // const patentLink = document.createElement('a')
     
     facebook.href = `https://www.facebook.com/profile.php?id=100090481339100&mibextid=LQQJ4d`
     facebook.alt = `Facebook`
@@ -34,6 +34,7 @@ function footer() {
 
     // links footer
     const footerLinks = {
+        home :'Accueil',
         prestations: 'Prestations',
         //feedback: 'Avis',
         contact: 'Contact',
