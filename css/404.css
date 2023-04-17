@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.image {
+    border-radius: 50%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.subtitle {
+    font-size: 25px;
+}
+
+.subtitle a {
+    text-decoration: none;
+    color: #499789;
+}
+
+@media only screen and (min-width: 700px) {
+    .image {
+        margin: 40px 0 100px 0;
+    }
+}
