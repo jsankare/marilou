@@ -56,6 +56,8 @@
 
 .activities {
     margin-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .activities__title {
