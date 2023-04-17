@@ -64,8 +64,16 @@
 }
 
 .activities__modules {
-    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.activity {
+    width: 48%; /* Set the width of each activity to fit two per row */
+    margin-bottom: 30px;
+}
+
 
 .icon-box {
     display: flex;
@@ -73,12 +81,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 300px;
+    max-width: 100px;
     margin: 0 auto;
 }
 
 .icon {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
     color: #966545;
     transition: all 0.2s ease-in-out;
@@ -88,10 +96,25 @@
     transform: scale(1.3);
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 260px) {
     .activities__modules {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .activity {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .activities__modules {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
     }
