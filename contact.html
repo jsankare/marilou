@@ -30,84 +30,80 @@
     </header>
     <main>
         <section id="form__section" class="">
-            <div id="form__title">
-                <h1>Me contacter</h1>
-            </div>
-            <div id="form__separator"></div>
-            <div id="form__inputs">
-                <div class="formContainer">
-                    <div id="firstName" class="input__div">
-                        <p class="form__name">Prénom *</p>
-                        <input type="text" label='firstName' name="firstName" class="input" required>
+            <form action="mailto:monmail@mail.com" method="post" name="contact" enctype="text/plain">
+                <div id="form__title">
+                    <h1>Me contacter</h1>
+                </div>
+                <div id="form__separator"></div>
+                <div id="form__inputs">
+                    <div class="formContainer">
+                        <div id="firstName" class="input__div">
+                            <p class="form__name">Prénom *</p>
+                            <input type="text" label='firstName' name="firstName" class="input" required>
+                        </div>
+                        <div id="lastName" class="input__div">
+                            <p class="form__name">Nom *</p>
+                            <input type="text" label='lastName' name="lastName" class="input required">
+                        </div>
                     </div>
-                    <div id="lastName" class="input__div">
-                        <p class="form__name">Nom *</p>
-                        <input type="text" label='lastName' name="lastName" class="input required">
+                    <div class="formContainer">
+                        <div id="email" class="input__div">
+                            <p class="form__name">Email *</p>
+                            <input type="email" label='email' name="email" class="input" placeholder="exemple@email.com"
+                                required>
+                        </div>
+                        <div id="phone" class="input__div">
+                            <p class="form__name">Téléphone *</p>
+                            <input type="tel" label='phone' name="phone" class="input" required>
+                        </div>
+                    </div>
+                    <div class="formContainer">
+                        <div id="email" class="input__div">
+                            <p class="form__name">Adresse *</p>
+                            <input type="text" label='address' name="address" class="input" placeholder="12 rue du bois"
+                                required>
+                        </div>
+                        <div id="phone" class="input__div">
+                            <p class="form__name">Ville *</p>
+                            <input type="text" label='city' name="city" class="input" placeholder="77730, Citry"
+                                required>
+                        </div>
+                    </div>
+                    <div class="formContainer">
+                        <div id="pets" class="input__div">
+                            <p class="form__name">Date de garde</p>
+                            <input type="date" label='date' name="date" class="input">
+                        </div>
+                        <div id="date" class="input__div">
+                            <p class="form__name">Horaire</p>
+                            <input type="text" label='' name="hour" class="input" placeholder="ex : 10h00 - 11h00">
+                        </div>
+                    </div>
+                    <div class="formContainer">
+                        <div id="pets" class="input__div">
+                            <p class="form__name">Nombre</p>
+                            <input type="number" label='number' name="number" class="input" placeholder="">
+                        </div>
+                        <div id="date" class="input__div">
+                            <p class="form__name">Type</p>
+                            <input id="pet__type" label='pets' name="pets" class="input">
+                        </div>
+                    </div>
+                    <div id="lowerForm">
+                        <div id="message">
+                            <p class="form__name">Votre message *</p>
+                            <textarea class="input input__msg"
+                                placeholder="Toute information important ou question que vous avez sur mon service ou ses modalités."
+                                required></textarea>
+                        </div>
                     </div>
                 </div>
-                <div class="formContainer">
-                    <div id="email" class="input__div">
-                        <p class="form__name">Email *</p>
-                        <input type="email" label='email' name="email" class="input" placeholder="exemple@email.com"
-                            required>
-                    </div>
-                    <div id="phone" class="input__div">
-                        <p class="form__name">Téléphone *</p>
-                        <input type="tel" label='phone' name="phone" class="input" required>
-                    </div>
-                </div>
-                <div class="formContainer">
-                    <div id="email" class="input__div">
-                        <p class="form__name">Adresse *</p>
-                        <input type="text" label='address' name="address" class="input" placeholder="12 rue du bois"
-                            required>
-                    </div>
-                    <div id="phone" class="input__div">
-                        <p class="form__name">Ville *</p>
-                        <input type="text" label='city' name="city" class="input" placeholder="77730, Citry" required>
-                    </div>
-                </div>
-                <div class="formContainer">
-                    <div id="pets" class="input__div">
-                        <p class="form__name">Date de garde *</p>
-                        <input type="date" label='date' name="date" class="input" required>
-                    </div>
-                    <div id="date" class="input__div">
-                        <p class="form__name">Horaire *</p>
-                        <input type="text" label='' name="hour" class="input" placeholder="ex : 10h00 - 11h00" required>
-                    </div>
-                </div>
-                <div class="formContainer">
-                    <div id="pets" class="input__div">
-                        <p class="form__name">Nombre *</p>
-                        <input type="number" label='number' name="number" class="input" placeholder="" required>
-                    </div>
-                    <div id="date" class="input__div">
-                        <p class="form__name">Type *</p>
-                        <input id="pet__type" label='pets' name="pets" class="input" list="pet__list" required>
-                        <datalist id="pet__list">
-                            <option value="Chien">Précisez la race</option>
-                            <option value="Chat">Précisez la race</option>
-                            <option value="Lapin"></option>
-                            <option value="Vache"></option>
-                            <option value="Rongeur"></option>
-                            <option value="Poule"></option>
-                        </datalist>
-                    </div>
-                </div>
-                <div id="lowerForm">
-                    <div id="message">
-                        <p class="form__name">Votre message *</p>
-                        <textarea class="input input__msg"
-                            placeholder="Toute information important ou question que vous avez sur mon service ou ses modalités."
-                            required></textarea>
-                    </div>
-                </div>
-            </div>
-            <button class="inputBtn" type="submit">Envoyer</button>
+                <button class="inputBtn" id="btn__send" value="send" type="submit">Envoyer</button>
+            </form>
         </section>
-        <h2 class="disclaimer center">J'attire votre attention sur le fait que les informations envoyées via ce formulaire <span
-                class="emphasis">ne constituent pas une acceptation de service</span> de ma part. Je reviendrais vers
+        <h2 class="disclaimer center">J'attire votre attention sur le fait que les informations envoyées via ce
+            formulaire <span class="emphasis">ne constituent pas une acceptation de service</span> de ma part. Je
+            reviendrais vers
             vous pour confirmer ou infirmer les possibilitées.</h2>
     </main>
     <footer>
