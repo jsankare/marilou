@@ -8,11 +8,11 @@ const testimonials = [
         "Neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur",
     },
     {
-      name: "La dadame",
+      name: "Adeline Colombier",
     //   job: "Developer, TechCrew",
       image: "images/mascots/avatar3.jpg",
       testimonial:
-        "Elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet nulla",
+        `"Je suis plus que satisfaite de Marilou qui est entièrement disponible et dévouée pour mes loulous. Elle est surtout très douce et très professionnelle. Je la remercie grandement pour ce qu’elle fait."`,
     },
     // {
     //   name: "Jae Robin",
