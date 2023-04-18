@@ -1,11 +1,11 @@
 //Testimonial Data
 const testimonials = [
     {
-      name: "Sylvain & Cathy",
+      name: "Cathy & Sylvain",
     //   job: "CEO, Fashworks",
       image: "images/mascots/avatar1.jpg",
       testimonial:
-        "Neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur",
+        `"Merci à Marilou pour son sérieux, son professionnalisme, nous avons eut besoin de ses services un week-end et tout à été très bien pour nos deux whippets . Merci encore et certainement à très bientôt."`,
     },
     {
       name: "Adeline Colombier",
