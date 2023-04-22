@@ -8,7 +8,6 @@ function presentationTitle() {
 }
 presentationTitle()
 
-// v2
 function prices() {
     const cards = document.getElementById('cards')
 
@@ -37,7 +36,7 @@ function prices() {
         hour: ``,
         home: `*Prix pour 1 à 2 visite(s). À partir de 3 visites par jour, le prix augmente de 5€`,
         smallSize: ``
-    } // refaire bien 
+    }
 
     for (const [link, label] of Object.entries(price__cards)) {
         const cardContainer = document.createElement('div')
@@ -55,35 +54,10 @@ function prices() {
         cardContainer.appendChild(cardPrice)
         cardContainer.appendChild(cardAsterisk)
         cards.appendChild(cardContainer)
+
+        if (link === 'home' || link === 'smallSize') {
+            cardContainer.classList.add('last-cards')
+        }
     }
 }
 prices()
-
-// function packages() {
-//     const cards = document.getElementById('cards_2')
-
-//     const price__cards = {
-//         thirty: 'Visite de jour/soir pendant -6 mois',
-//         fortyFive: 'Visite de jour/soir pendant + 6 mois',
-//     };
-
-//     const prices = {
-//         thirty: '20€ / jour',
-//         fortyFive: '17€ / jour',
-//     }
-
-//     for (const [link, label] of Object.entries(price__cards)) {
-//         const cardContainer = document.createElement('div')
-//         const cardText = document.createElement('p')
-//         const cardPrice = document.createElement('span')
-
-//         cardPrice.innerHTML = `${prices[link]}`
-//         cardContainer.className = `card flex center`
-//         cardText.innerText = `${label} :`
-//         cardContainer.appendChild(cardText)
-//         cardContainer.appendChild(cardPrice)
-//         cards.appendChild(cardContainer)
-//     }
-// }
-// packages()
-

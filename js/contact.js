@@ -7,7 +7,8 @@ document.querySelector(".inputBtn").addEventListener("click", function (event) {
   const phone = document.querySelector("input[name='phone']").value
   const address = document.querySelector("input[name='address']").value
   const city = document.querySelector("input[name='city']").value
-  const date = document.querySelector("input[name='date']").value
+  const startDate = document.querySelector("input[name='startDate']").value
+  const endDate = document.querySelector("input[name='endDate']").value
   const time = document.querySelector("input[name='hour']").value
   const number = document.querySelector("input[name='number']").value
   const race = document.querySelector("input[name='pets']").value
@@ -47,26 +48,6 @@ document.querySelector(".inputBtn").addEventListener("click", function (event) {
     return
   }
 
-  // if (date === "") {
-  //   alert("Veuillez entrer une date de garde")
-  //   return
-  // }
-
-  // if (time === "") {
-  //   alert("Veuillez entrer un horaire de garde")
-  //   return
-  // }
-
-  // if (number === "") {
-  //   alert("Veuillez entrer un nombre d'animaux à garder")
-  //   return
-  // }
-
-  // if (race === "") {
-  //   alert("Veuillez entrer un nombre d'animaux à garder")
-  //   return
-  // }
-
   if (message === "") {
     alert("Veuillez entrer un message")
     return
@@ -81,14 +62,15 @@ document.querySelector(".inputBtn").addEventListener("click", function (event) {
     Téléphone: phone,
     Adresse: address,
     Ville: city,
-    'Date de garde': date,
+    'Début de garde': startDate,
+    'Fin de garde': endDate,
     Horaire: time,
     Nombre: number,
     Type: race,
     Message: message
   });
 
-    const body = `Prénom: ${firstName}\nNom: ${lastName}\nEmail: ${email}\nTéléphone: ${phone}\nAdresse: ${address}\nVille: ${city}\nDate de garde: ${date}\nHoraire: ${time}\nNombre: ${number}\nType: ${race}\n\nMessage:\n${message}`
+    const body = `Prénom: ${firstName}\nNom: ${lastName}\nEmail: ${email}\nTéléphone: ${phone}\nAdresse: ${address}\nVille: ${city}\nDébut de garde: ${startDate}\nFin de garde: ${endDate}\nHoraire: ${time}\nNombre: ${number}\nType: ${race}\n\nMessage:\n${message}`
 
     const mailtoLink = `mailto:Mariloubaty@outlook.fr?subject=Prise de contact&body=${encodeURIComponent(body)}`
     window.open(mailtoLink, "_blank")
