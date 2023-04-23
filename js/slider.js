@@ -14,20 +14,6 @@ const testimonials = [
       testimonial:
         `"Je suis plus que satisfaite de Marilou qui est entièrement disponible et dévouée pour mes loulous. Elle est surtout très douce et très professionnelle. Je la remercie grandement pour ce qu’elle fait."`,
     },
-    // {
-    //   name: "Jae Robin",
-    //   job: "UI Designer, Affinity Agency",
-    //   image: "profile-image-3.png",
-    //   testimonial:
-    //     "Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis",
-    // },
-    // {
-    //   name: "Nicola Blakely",
-    //   job: "CEO,Zeal Wheels",
-    //   image: "profile-image-4.png",
-    //   testimonial:
-    //     "Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-    // },
   ];
   
   //Current Slide
@@ -55,6 +41,6 @@ const testimonials = [
       <h3>${testimonials[i].name}</h3>
       
     `; 
-    // <h6>${testimonials[i].job}</h6> can add this, wtyle already present
+    // <h6>${testimonials[i].job}</h6> can add this, style already present
   };
   window.onload = displayTestimonial;

@@ -24,8 +24,8 @@ function navigation() {
     const logoImg = document.createElement('img')
     const logoLink = document.createElement('a')
     logoLink.href = `index.html`
-    logoImg.src = `images/marilou-logo-cropped.png`
-    logoImg.alt = `A dog face as logo`
+    logoImg.src = `images/logo.svg`
+    logoImg.alt = `Marilou's logo`
     logoImg.id = `nav__logo__img`
     logoLink.appendChild(logoImg)
 
