@@ -78,6 +78,19 @@
 
 }
 
+.bigCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .last-cards {
+    max-width: 236px;
+    height: 200px;
+  }
+
 @media only screen and (max-width: 300px) {
 
     #cards {
@@ -85,6 +98,28 @@
         display: flex;
         max-width: 400px;
         flex-direction: column;
+        align-items: center;
     }
 
+    .last-cards {
+        max-width: 236px;
+        height: auto;
+      }
+      
+}
+
+@media only screen and (max-width : 560px) {
+    .bigCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 800px;
+        width: 100%;
+      }
+
+      .last-cards {
+        max-width: 100%;
+      }
 }

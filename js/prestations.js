@@ -16,8 +16,8 @@ function prices() {
         thirty: 'Promenade de 30 min',
         fortyFive: 'Promenade de 45 min',
         hour: `Promenade d'une heure`,
-        home: `Visite à domicile (par jour)*`,
-        smallSize: `Prix petite taille`
+        // home: `Visite à domicile (par jour)*`,
+        // smallSize: `Prix petite taille`
     };
 
     const prices = {
@@ -25,8 +25,8 @@ function prices() {
         thirty: '9€',
         fortyFive: '12€',
         hour: `15€`,
-        home: `15€ pour 1 animal<br>20€ pour 2 animaux<br>25€ à partir de 3 animaux`,
-        smallSize: `Pour les chats, lapins, rongeurs ou autre animal domestique de petite taille, le prix est de 5€`
+        // home: `15€ pour 1 animal<br>20€ pour 2 animaux<br>25€ à partir de 3 animaux`,
+        // smallSize: `Pour les chats, lapins, rongeurs ou autre animal domestique de petite taille, le prix est de 5€`
     }
 
     const asterisks = {
@@ -55,9 +55,6 @@ function prices() {
         cardContainer.appendChild(cardAsterisk)
         cards.appendChild(cardContainer)
 
-        if (link === 'home' || link === 'smallSize') {
-            cardContainer.classList.add('last-cards')
-        }
     }
 }
 prices()
