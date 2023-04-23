@@ -5,7 +5,7 @@ const testimonials = [
     //   job: "CEO, Fashworks",
       image: "images/mascots/avatar1.jpg",
       testimonial:
-        `"Merci à Marilou pour son sérieux, son professionnalisme, nous avons eut besoin de ses services un week-end et tout à été très bien pour nos deux whippets . Merci encore et certainement à très bientôt."`,
+        `"Merci à Marilou pour son sérieux, son professionnalisme, nous avons eu besoin de ses services un week-end et tout à été très bien pour nos deux whippets . Merci encore et certainement à très bientôt."`,
     },
     {
       name: "Adeline Colombier",
