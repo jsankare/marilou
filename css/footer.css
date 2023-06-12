@@ -38,6 +38,10 @@ footer {
     font-weight: 1000;
 }
 
+.patent {
+    color: black;
+}
+
 .footer__link {
     text-decoration: none;
     color: black;
