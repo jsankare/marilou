@@ -21,9 +21,9 @@ function footer() {
     patent.href = `https://www.jsankare.dev`
     patent.alt = `developper website JSankare`
     patent.target = `blank`
-    patent.innerHTML = `JSankare®`
+    patent.innerHTML = `JSankare`
     patent.className = `patent`
-    mediasContainer.innerHTML = `Retrouvez-moi sur ${facebook.outerHTML} et ${instagram.outerHTML}. Copyright ${patent.outerHTML}`
+    mediasContainer.innerHTML = `Retrouvez-moi sur ${facebook.outerHTML} et ${instagram.outerHTML}. Création ${patent.outerHTML}`
     medias.appendChild(mediasContainer)
 
     // links footer
