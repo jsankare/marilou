@@ -14,6 +14,13 @@ const testimonials = [
       testimonial:
         `"Je suis plus que satisfaite de Marilou qui est entièrement disponible et dévouée pour mes loulous. Elle est surtout très douce et très professionnelle. Je la remercie grandement pour ce qu’elle fait."`,
     },
+    {
+      name: "Mme Delachanal",
+    //   job: "Developer, TechCrew",
+      image: "images/mascots/avatar2.jpg",
+      testimonial:
+        `"Excellente prestation. Personne de confiance et sympathique, mon chiuen était heureux ! On recommande !"`,
+    },
   ];
   
   //Current Slide
