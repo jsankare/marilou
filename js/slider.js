@@ -19,7 +19,14 @@ const testimonials = [
     //   job: "Developer, TechCrew",
       image: "images/mascots/avatar2.jpg",
       testimonial:
-        `"Excellente prestation. Personne de confiance et sympathique, mon chiuen était heureux ! On recommande !"`,
+        `"Excellente prestation. Personne de confiance et sympathique, mon chien était heureux ! On recommande !"`,
+    },
+    {
+      name: "Mme Ludivine Faes",
+    //   job: "Developer, TechCrew",
+      image: "images/mascots/avatar4.jpg",
+      testimonial:
+        `"Marilou est une personne de confiance et professionnelle. Elle s'est occupée de notre chat pendant deux semaines et tout s'est très bien passé, merci !"`,
     },
   ];
   
