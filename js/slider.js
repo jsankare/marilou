@@ -28,6 +28,13 @@ const testimonials = [
       testimonial:
         `"Marilou est une personne de confiance et professionnelle. Elle s'est occupée de notre chat pendant deux semaines et tout s'est très bien passé, merci !"`,
     },
+    {
+      name: "Mr Stéphane Pinna",
+    //   job: "Developer, TechCrew",
+      image: "images/mascots/avatar5.svg",
+      testimonial:
+        `"Marilou prend soin de mon chat à chaque fois que je pars en vacances, il est très bien choyé et heureux de la voir arriver pour profiter de ses câlins et de sa dose de croquettes. Je recommande vivement Marilou !"`,
+    },
   ];
   
   //Current Slide
