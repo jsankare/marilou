@@ -86,10 +86,17 @@
     margin: 0 auto;
   }
 
-  .last-cards {
+.solo {
+    justify-content: center;
+    width: 100%;
+}
+
+.last-cards {
     max-width: 236px;
     height: 200px;
-  }
+}
+
+
 
 @media only screen and (max-width: 300px) {
 

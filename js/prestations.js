@@ -34,8 +34,8 @@ function prices() {
         thirty: '',
         fortyFive: '',
         hour: ``,
-        home: `*Prix pour 1 à 2 visite(s). À partir de 3 visites par jour, le prix augmente de 5€`,
-        smallSize: ``
+        // home: `*Prix pour 1 à 2 visite(s). À partir de 3 visites par jour, le prix augmente de 5€`,
+        // smallSize: ``
     }
 
     for (const [link, label] of Object.entries(price__cards)) {
